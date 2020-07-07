@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FRESH VEG</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row clearfix">
+          <img src="images/logo.png" class="logo" alt="">
+          <ul class="first">
+            <li><a href="#">VEGETABLE DELIVERY</a></li>
+            <li><a href="#">HOW TO ORDER</a></li>
+            <li><a href="#">CHECK MORE</a></li>
+            <li><a href="#">SIGN UP</a></li>
+
+
+          </ul>
+          <a href="#" class=" icon" id="check-class " onclick="slideshow()"> <i class="fa fa-bars"> </i> </a>
+
+        </div>
+      </nav>
+      <div class="second">
+
+
+      <h1>WELCOME TO FRESH <span class="third">VEGETABLE STORE</span> <br>
+          GROCERY STORE</h1>
+      <a href="#" class="btn btn-full"> CLICK TO ORDER</a>
+      <a href="#" class="btn btn-full2"> SHOW MORE</a>
+      </div>
+    </header>
+  <script type="text/javascript">
+   function slideshow() {
+     var x= document.getElementById('check-class');
+     if(x.style.display === "none"){
+       x.style.display="block";
+     }
+     else{
+       x.style.display = "none";
+     }
+     
+   }
+
+  </script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  font-size: 20px;
+  overflow-x: hidden;
+  color: white;
+}
+header{
+  background-image: url('../images/veg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear:both;
+
+}
+
+.row{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.logo
+ {
+   height: 120px;
+   width: auto;
+   float: left;
+  margin-top: 20px;
+}
+
+.first{
+  float:right;
+  margin-top: 60px;
+
+}
+.first li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+
+}
+
+.first li a{
+  color: black;
+  padding: 5px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 100;
+  font-family: bolder;
+
+}
+
+.first li a:hover{
+  border-bottom: 2px solid black;
+
+
+}
+.second{
+  width: 1180px;
+  position: absolute;
+  border: 1px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.third{
+  animation: colorchangevegetable 1s infinite;
+}
+
+@keyframes colorchangevegetable {
+  0%{color: red;}
+  25%{color: #bf55ec;}
+  50%{color:white;}
+  100%{cursor: #bf55ec;
+  }}
+
+  .icon{
+    display: none;
+  }
+
+
+h1{
+  color: black;
+  font-size: 280%;
+  font-family:forte ;
+  word-spacing: 2px;
+  letter-spacing: 4px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+
+}
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight:lighter;
+  text-decoration: none;
+text-transform: uppercase;
+border-radius: 200px;
+transition: background-color 0.2s,border 0.2s , color 0.2;
+}
+
+.btn-full{
+  background-color: black;
+  color: orange;
+  margin-left: 15px;
+  border: 1px solid;
+  font-weight: bolder;
+
+
+}
+
+.btn-full:hover{
+  background-color: white;
+
+}
+
+.btn-full2{
+  background-color: black;
+  color: orange;
+  border: 1px solid;
+  font-weight: bolder;
+
+}
+
+.btn-full2:hover{
+  background-color: white;
+
+}
+
+
+@media only screen and (max-width:1180px){
+  .second header{
+    width: 100%;
+    padding: 0 2%;
+
+  }
+}
+
+
+@media only screen and (max-width:998px){
+   h1{
+    font-size: 200%;
+
+  }
+}
+
+@media only screen and (max-width:768px){
+   h1{
+    font-size: 180%;
+  .
+  }
+}
+
+
+.first{
+  display: none;
+
+}
+
+
+.icon{display: inline-block;
+  color: white;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+
+}
+
+.first{
+  float: left;
+}
+
+.first li{
+  display: block;
+  margin-top: 10px;
+
+}
